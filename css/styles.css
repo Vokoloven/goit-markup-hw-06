@@ -992,6 +992,8 @@ body {
 .backdrop .contacts-title {
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 12px;
+  margin-top: 2px;
 
   font-weight: 700;
   font-size: 20px;
@@ -1006,8 +1008,13 @@ body {
   margin-left: auto;
 }
 
+.backdrop .contacts-label:nth-child(n + 3) .contacts-box {
+  margin-top: 10px;
+}
+
 .backdrop .contacts-box {
   display: block;
+  margin-bottom: 4px;
 
   font-weight: 400;
   font-size: 12px;
@@ -1035,6 +1042,7 @@ body {
   resize: none;
   padding-left: 16px;
   padding-top: 12px;
+  margin-bottom: 20px;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -1052,6 +1060,7 @@ body {
   align-items: center;
   margin-right: auto;
   margin-left: 52px;
+  margin-bottom: 30px;
 }
 
 .backdrop .checkbox-text {
