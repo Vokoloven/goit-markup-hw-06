@@ -983,6 +983,38 @@ body {
 
   background-color: var(--white-color);
 }
+
+.backdrop .contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.backdrop .contacts-title {
+  margin-left: auto;
+  margin-right: auto;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-font-color);
+}
+
+.backdrop .contacts-label {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.backdrop .contacts-box {
+  display: block;
+}
+
+.backdrop .contacts-input {
+  min-width: 448px;
+  height: 40px;
+}
+
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>FOLLOW FOOTER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 .follow-form {
   display: flex;
