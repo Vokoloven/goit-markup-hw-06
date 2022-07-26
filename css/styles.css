@@ -1114,12 +1114,6 @@ body {
   padding: 0;
 }
 
-/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>OUTLINE FOR FOCUS */
-/* .backdrop .contacts-input:focus-within .contacts-box {
-  background-color: tomato;
-  padding-left: 42px;
-} */
-
 .backdrop .contacts-comment {
   min-width: 448px;
   height: 120px;
