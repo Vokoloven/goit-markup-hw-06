@@ -1,9 +1,5 @@
-<svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <symbol id="close-1" viewBox="0 0 32 32">
-      <path fill="#fff" style="fill:var(--color1, #fff)" d="M28.632 12.632c0 6.976-5.656 12.632-12.632 12.632S3.368 19.608 3.368 12.632 9.024 0 16 0s12.632 5.656 12.632 12.632z"/>
-      <path fill="none" stroke="#000" style="stroke:var(--color2, #000)" stroke-width=".842" d="M28.211 12.632c0 6.744-5.467 12.211-12.211 12.211S3.789 19.376 3.789 12.632 9.256.421 16 .421s12.211 5.467 12.211 12.211z"/>
-      <path style="fill:var(--color2, #000)" d="m21.053 8.512-.933-.933-3.699 3.699-3.699-3.699-.933.933 3.699 3.699-3.699 3.699.933.933 3.699-3.699 3.699 3.699.933-.933-3.699-3.699 3.699-3.699z"/>
-    </symbol>
-  </defs>
+<svg width="30" height="30" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="15" cy="15" r="15" fill="#fff"/>
+  <circle cx="15" cy="15" r="14.5" stroke="#000" stroke-opacity=".1"/>
+  <path d="M21 10.108 19.892 9 15.5 13.392 11.108 9 10 10.108l4.392 4.392L10 18.892 11.108 20l4.392-4.392L19.892 20 21 18.892 16.608 14.5 21 10.108Z" fill="#000"/>
 </svg>

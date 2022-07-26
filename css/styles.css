@@ -1078,12 +1078,21 @@ body {
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  outline-color: var(--button-color);
+  transition: outline-color 250ms var(--transition-timing-function),
+    border-color 250ms var(--transition-timing-function);
   cursor: pointer;
 }
 
-.contacts-input:focus + .icon-box {
+.contacts-input:focus,
+.contacts-input:hover {
+  outline-color: var(--button-color);
+  border-color: var(--button-color);
+}
+
+.contacts-input:focus + .icon-box,
+.contacts-input:hover + .icon-box {
   fill: var(--button-color);
+  transition: fill 250ms var(--transition-timing-function);
 }
 
 .backdrop .contacts-label:nth-child(2) .icon-box {
@@ -1124,7 +1133,14 @@ body {
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  transition: outline-color 250ms var(--transition-timing-function),
+    border-color 250ms var(--transition-timing-function);
+}
+
+.backdrop .contacts-comment:focus,
+.backdrop .contacts-comment:hover {
   outline-color: var(--button-color);
+  border-color: var(--button-color);
 }
 
 .backdrop .contacts-comment::placeholder {
@@ -1142,7 +1158,18 @@ body {
   position: absolute;
 }
 
-.backdrop .contacts-agree:checked ~ .check-box-icon {
+.contacts-checkbox .check-box-icon {
+  display: block;
+  width: 16px;
+  height: 15px;
+
+  border: 1px solid #000000;
+  border-radius: 2px;
+
+  transition: background-color 250ms var(--transition-timing-function);
+}
+
+.backdrop .contacts-agree:checked + .check-box-icon {
   background-color: var(--button-color);
   border-color: var(--button-color);
   background-image: url("../images/checkbox.svg");
@@ -1169,15 +1196,6 @@ body {
   color: var(--paragraph-color);
 }
 
-.contacts-checkbox .check-box-icon {
-  display: block;
-  width: 16px;
-  height: 15px;
-
-  border: 1px solid #000000;
-  border-radius: 2px;
-}
-
 .backdrop .checkbox-link {
   font-size: 14px;
   line-height: 1.71;
@@ -1202,7 +1220,7 @@ body {
   cursor: pointer;
 }
 
-.backdrop .contacnts-button-text {
+.backdrop .contacts-button-text {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -1257,6 +1275,7 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: transparent;
+  color: var(--white-color);
 }
 
 .footer .follow-mail::placeholder {
