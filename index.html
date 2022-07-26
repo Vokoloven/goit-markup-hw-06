@@ -569,20 +569,21 @@
             </li>
           </ul>
         </div>
-        <form class="follow-form">
+        <form class="follow-form" autocomplete="off">
           <label class="follow-lable">
             <span class="follow-text">Подпишитесь на рассылку</span
             ><input
-              type="text"
-              class="follow-mail"
+              type="email"
               name="mail"
+              class="follow-mail"
               placeholder="E-mail"
           /></label>
           <button type="submit" class="follow-button">
             <span class="follow-button-text">Подписаться</span
-            ><svg class="follow-button-icon">
-              <use href="./images/icons.svg#telegram" />
-            </svg>
+            ><span class="follow-button-icon"
+              ><svg class="icon">
+                <use href="./images/icons.svg#telegram" /></svg
+            ></span>
           </button>
         </form>
       </div>
@@ -594,6 +595,18 @@
             <use href="./images/icons.svg#close" />
           </svg>
         </button>
+        <form autocomplete="off">
+          <label class="name">
+            <span>Имя</span><input type="text" name="name"
+          /></label>
+          <label class="name">
+            <span>Имя</span><input type="text" name="name"
+          /></label>
+          <label class="name">
+            <span>Имя</span><input type="text" name="name" />
+            <textarea name=""></textarea>
+          </label>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
