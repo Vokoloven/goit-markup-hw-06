@@ -971,7 +971,14 @@ body {
   width: 30px;
   height: 30px;
 
+  transition: fill 250ms var(--transition-timing-function);
+
   cursor: pointer;
+}
+
+.backdrop .modal-button:hover,
+.backdrop .modal-button:focus {
+  fill: var(--button-color);
 }
 
 .backdrop .modal-icon {
