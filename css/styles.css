@@ -1008,6 +1008,22 @@ body {
   margin-left: auto;
 }
 
+.backdrop .contacts-name {
+  position: relative;
+}
+
+.backdrop .contacts-name::after {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+
+  display: block;
+  content: "";
+  width: 18px;
+  height: 18px;
+  background-image: url("../images/name.svg");
+}
+
 .backdrop .contacts-label:nth-child(n + 3) .contacts-box {
   margin-top: 10px;
 }
