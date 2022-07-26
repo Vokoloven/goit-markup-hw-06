@@ -1008,11 +1008,38 @@ body {
 
 .backdrop .contacts-box {
   display: block;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: var(--paragraph-color);
 }
 
 .backdrop .contacts-input {
   min-width: 448px;
   height: 40px;
+
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.backdrop .contacts-comment {
+  min-width: 448px;
+  height: 120px;
+  resize: none;
+}
+
+.backdrop .contacts-checkbox {
+  margin-right: auto;
+  margin-left: 52px;
+}
+
+.contacts-button {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 200px;
+  height: 50px;
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>FOLLOW FOOTER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
