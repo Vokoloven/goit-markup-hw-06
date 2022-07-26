@@ -1024,10 +1024,27 @@ body {
   border-radius: 4px;
 }
 
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>OUTLINE FOR FOCUS */
+/* .backdrop .contacts-input:focus {
+  outline: none;
+} */
+
 .backdrop .contacts-comment {
   min-width: 448px;
   height: 120px;
   resize: none;
+  padding-left: 16px;
+  padding-top: 12px;
+
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.backdrop .contacts-comment::placeholder {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
 }
 
 .backdrop .contacts-checkbox {
