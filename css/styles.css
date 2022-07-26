@@ -730,7 +730,8 @@ body {
 
 .follow-us-button {
   display: flex;
-  margin: 0;
+  justify-content: center;
+  align-items: center;
   padding: 0;
 
   min-width: 200px;
@@ -741,21 +742,16 @@ body {
   background-color: var(--button-color);
 }
 
-.follow-us-box {
-  display: flex;
-  min-width: 143px;
-  height: 30px;
-  align-items: center;
-  margin: 10px 28px;
-}
-
 .follow-us-text {
   display: flex;
-  /* margin: 10px 62px 10px 10px; */
+  min-width: 109px;
+  height: 30px;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+
   color: var(--white-color);
 }
 
