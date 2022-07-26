@@ -981,3 +981,77 @@ body {
 
   background-color: var(--white-color);
 }
+
+.follow-form {
+  display: flex;
+
+  min-width: 570px;
+  height: 86px;
+}
+
+.follow-lable {
+  flex-direction: column;
+  margin-left: 93px;
+  margin-bottom: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+.follow-text {
+  display: block;
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--white-color);
+}
+
+.follow-mail {
+  width: 358px;
+  height: 50px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.follow-button {
+  display: flex;
+
+  align-items: center;
+  padding: 0;
+  margin-left: 12px;
+  margin-top: auto;
+
+  min-width: 200px;
+  height: 50px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  background-color: var(--button-color);
+  border: none;
+  cursor: pointer;
+}
+
+.follow-button-text {
+  margin-left: 28px;
+  margin-right: 10px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--white-color);
+}
+
+.follow-button-icon {
+  width: 24px;
+  height: 24px;
+}
