@@ -1134,6 +1134,24 @@ body {
   color: rgba(117, 117, 117, 0.5);
 }
 
+.contacts-agree {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  position: absolute;
+}
+
+.backdrop .contacts-agree:checked ~ .check-box-icon {
+  background-color: var(--button-color);
+  border-color: var(--button-color);
+  background-image: url("../images/checkbox.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-origin: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
 .backdrop .contacts-checkbox {
   display: flex;
   align-items: center;
@@ -1148,7 +1166,16 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--paragraph-color);
+}
+
+.contacts-checkbox .check-box-icon {
+  display: block;
+  width: 16px;
+  height: 15px;
+
+  border: 1px solid #000000;
+  border-radius: 2px;
 }
 
 .backdrop .checkbox-link {
@@ -1167,7 +1194,7 @@ body {
   min-width: 200px;
   height: 50px;
 
-  background-color: #188ce8;
+  background-color: var(--button-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
@@ -1181,7 +1208,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  color: white;
+  color: var(--white-color);
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>FOLLOW FOOTER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
@@ -1192,7 +1219,6 @@ body {
   justify-content: flex-end;
 
   margin-left: 93px;
-
   min-width: 570px;
   height: 86px;
 }
