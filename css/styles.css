@@ -1156,13 +1156,21 @@ body {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Hidden Check-box */
 .contacts-agree {
-  -webkit-appearance: none;
+  /* -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 
+  position: absolute; */
   position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .contacts-checkbox .check-box-icon {
